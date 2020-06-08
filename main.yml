@@ -1,0 +1,4 @@
+- name: Run cloud-init role
+  hosts: all
+  roles:
+    - cloud-init
